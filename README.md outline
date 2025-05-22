@@ -1,0 +1,29 @@
+# Todo Summary Assistant
+
+A full-stack app to manage personal to-dos and summarize pending tasks using OpenAI. The summary is sent to a Slack channel.
+
+## Features
+
+- Add/edit/delete todos
+- View current list
+- Summarize via LLM
+- Send summary to Slack
+
+## Stack
+
+- Frontend: React
+- Backend: Node.js (Express)
+- Database: Supabase (to be configured)
+- LLM: OpenAI API
+- Slack: Incoming Webhook
+
+## Setup
+
+1. Clone repo
+2. Configure `.env` files
+3. Run backend: `npm install && npm start`
+4. Run frontend: `npm install && npm start` in `/frontend`
+
+## Deployment (Optional)
+
+You can deploy using Vercel, Netlify, or Firebase Hosting.
