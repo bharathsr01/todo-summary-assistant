@@ -1,0 +1,24 @@
+todo-summary-assistant/
+│
+├── backend/
+│   ├── index.js
+│   ├── routes/
+│   │   └── todos.js
+│   ├── services/
+│   │   ├── openai.js
+│   │   └── slack.js
+│   ├── .env
+│   └── package.json
+│
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── App.js
+│   │   ├── components/
+│   │   │   ├── TodoList.js
+│   │   │   └── TodoForm.js
+│   │   └── api.js
+│   ├── .env
+│   └── package.json
+│
+└── README.md
