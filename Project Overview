@@ -1,0 +1,36 @@
+The Todo Summary Assistant is a full-stack web application that helps users manage their daily tasks (to-dos) and get a smart summary of all pending tasks using AI. The summary can then be automatically sent to a Slack channel.
+
+1.Key Features:-
+  Create, edit, and delete personal to-do items.
+  View a list of all current tasks.
+  Click a button to generate a summary using OpenAI (or another real LLM).
+  Send the summary to a Slack channel using Slack Webhooks.
+  Show a message if the Slack send was successful or not.
+
+2.Technologies Used:-
+  i).Frontend:
+    React.js – For building the user interface.
+    Handles user inputs, displays todos, and sends requests to backend.
+
+  ii).Backend:
+    Node.js with Express or Java (Spring Boot) – For APIs
+
+  iii).Endpoints:
+    GET /todos – Fetch todos
+    POST /todos – Add new todo
+    DELETE /todos/:id – Delete a todo
+    POST /summarize – Generate summary and send to Slack.
+
+3.Integrations:-
+  OpenAI (or similar LLM) – To summarize pending tasks
+  Slack Webhooks – To post summaries into a Slack channel
+
+4.Database & Hosting:-
+  Use Supabase (PostgreSQL) or Firebase (optional) to store todos
+  Free-tier hosting platforms like Vercel, Netlify, or Render can be used
+
+5.Final Deliverables:-
+  i) Frontend + backend source code on GitHub
+  ii) .env.example file with required environment variables
+  iii) README.md with setup, Slack and LLM integration guide
+  iv) (Optional) Live deployed URL
